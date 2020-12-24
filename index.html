@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>우현우(vkeh)_포트폴리오</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+
+
+</head>
+
+<body>
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- 전체 틀-->
+    <div id="FULL">
+
+        <!-- 첫 화면(홈페이지 소개) -->
+        <div id="HOME">
+            <left-side></left-side>
+            <content id="one">
+                <video id="videobackground" autoplay muted loop>
+                    <source src="video/video1.mp4" type="video/mp4">
+                </video>
+                <h1>👋printf(hello)</h1>
+                <h2>front-end developer</h2>
+                <h2>web portfolio</h2>
+            </content>
+            <right-side>
+
+
+            </right-side>
+        </div>
+
+
+
+
+        <!-- 두번째 화면(나의 소개) -->
+        <div id="ABOUT" >
+            <left-side>
+
+            </left-side>
+
+            <content id="two">
+
+                <em>
+                    <h1 id="title" data-aos="fade-up" data-aos-duration="3000">what i do</h1>
+                </em>
+                <div class="photo">
+                <img src="img/4.png" alt="사진">
+                </div>
+                <div class="infor">
+                    <h1>우현우 : 禹炫宇</h1>
+                    <h1>WOO HYUN WOO</h1>
+                    <h1>1994. 11. 08</h1>
+                    <h1>liaaillia@naver.com</h1>
+                </div>
+
+                <div class="keywords">
+                    <h1>KEYWORDS</h1>
+                    <h3>#웹표준 #반응형 #HTML</h3>
+                    <h3>#책임감 #호기심 #도전</h3>
+                </div>
+
+
+                <div class="education">
+                    <h1>EDUCATION</h1>
+                    <h2>2013. 02 경북대학교 사범대학 부설 고등학교 졸업</h2>
+                    <h2>2020. 02 대구대학교 컴퓨터정보공학과 졸업</h2>
+                </div>
+
+
+                <div class="experienced">
+                    <h1>EXPERIENCED</h1>
+                    <h2>교내 진로/취업역량강화 Youtube 프로그램</h2>
+                    <h2>교내 DU-HEART 인재 인증제 공모전(카드뉴스)</h2>
+                    <h2>청년취업아카데미 웹기반 빅데이터 분석과정</h2>
+                    <h2>OGQ크리에이터 스튜디오 이모티콘 판매</h2>
+                    <h2>대구대학교 청년TLO 육성사업</h2>
+                </div>
+
+                <div class="license">
+                    <h1>LICENSE</h1>
+                    <h2>기술사업화 전문코디네이터(TCC) - 민간자격증</h2>
+                </div>
+
+
+                <div class="skills">
+                    <h1>SKILLS</h1>
+                    <ul>
+                       <li><img src="img/icon-01.png" alt="HTML"><progress value="80" max="100"></progress></li>
+                       <li><img src="img/icon-02.png" alt="CSS"><progress value="70" max="100"></progress></li>
+                       <li><img src="img/icon-03.png" alt="JS"><progress value="70" max="100"></progress></li>
+                       <li><img src="img/icon-04.png" alt="PHO"><progress value="80" max="100"></progress></li>
+                        <li><img src="img/icon-05.png" alt="AI"><progress value="80" max="100"></progress></li>                        
+                                        
+                        
+                        
+                    </ul>
+                </div>
+
+
+
+
+
+
+            </content>
+            <right-side>
+
+            </right-side>
+
+        </div>
+
+
+
+        <!-- 세번째 화면(포트폴리오) -->
+        <div id="PORTFOLIO">
+            <left-side></left-side>
+            <content id="three">
+
+            </content>
+            <right-side></right-side>
+
+        </div>
+
+        <!-- 네번째 화면(작업) -->
+        <div id="OTHERS">
+            <left-side></left-side>
+            <content id="four">
+
+            </content>
+            <right-side></right-side>
+
+        </div>
+
+
+        <!-- 다섯번째 화면(컨택스) -->
+        <div id="CONTACT">
+            <left-side></left-side>
+            <content id="five">
+                <header>
+                <em>
+                    <h1 id="title" data-aos="fade-up" data-aos-duration="3000">CONTACT</h1>
+                </em>
+                </header>
+                
+                <section>
+                sadsadsadadsadsada
+                </section>
+                
+                
+                <footer>Copyright 2020. 우현우. All right reserved.</footer>
+            </content>
+            
+            <right-side>
+                <div id="menu">
+                    <ul>
+                        <li><a href="#HOME">HOME</a></li>
+                        <li><a href="#ABOUT">ABOUT</a></li>
+                        <li><a href="#PORTFOLIO">PORTFOLIO</a></li>
+                        <li><a href="#OTHERS">OTHERS</a></li>
+                        <li><a href="#CONTACT">CONTACT</a></li>
+                    </ul>
+                </div>
+                <div id="btn">
+                <button><img src="../img/background.jpg" width="65vh" height="65vh" onclick="ChangeBg('1');"></button>
+                <button><img src="../img/background3.jpg" width="65vh" height="65vh" onclick="ChangeBg('2');"></button>
+                </div>
+            </right-side>
+
+        </div>
+
+
+
+
+
+
+
+
+
+    </div>
+</body>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</html>
